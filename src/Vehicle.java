@@ -45,6 +45,8 @@ public class Vehicle {
     public double pay(int hours) { 
 
     // code to return admin fee - only if applicable 
+        if(hours<=5) return ADMIN_FEE;
+        return 0;
 
     } 
 
